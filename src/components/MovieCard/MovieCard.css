@@ -1,0 +1,32 @@
+.movieCard{
+    background:#0f171e;
+    cursor:pointer;
+    height:420px;
+    width:300px;
+    border:2px solid  #0f171e;
+    transition:all  0.3s;
+}
+.movieCard :hover{
+    transform:scale(1.1);
+    transition:all 0.4s;
+    
+}
+.movieTop {
+    height:300px;
+}
+.movieTop >img{
+    width:100%;
+    height:100%;
+}
+.movieInfo{
+    color:#fff;
+
+}
+.movieBottom{
+    padding-top:20px
+}
+.movieInfo >h4{
+    font-size:22px;
+    font-weight: 400;
+    margin-bottom:10px;
+}

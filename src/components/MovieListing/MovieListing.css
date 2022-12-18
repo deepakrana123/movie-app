@@ -1,0 +1,28 @@
+.movie-list{
+    margin:20px 0px;
+}
+.movie-list >h2{
+    color:#FFFFFF;
+    margin-bottom: 10px;
+    font-weight:400;
+}
+
+.show-list{
+    margin:20px 0px;
+}
+.show-list > h2{
+    color:#FFFFFF;
+    margin-bottom: 10px;
+    font-weight:400;
+}
+
+.movie-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fill , minmax(300px,1fr)) ;
+    grid-gap:25px;
+    /* display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:25px;
+    justify-content: flex-start; */
+}
